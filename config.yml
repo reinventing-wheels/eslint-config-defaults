@@ -1,0 +1,181 @@
+env:
+  es6: true
+extends:
+  - 'eslint:recommended'
+  - 'plugin:@typescript-eslint/eslint-recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'plugin:@typescript-eslint/recommended-requiring-type-checking'
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: 2020
+  sourceType: module
+  project: './tsconfig.json'
+plugins:
+  - '@typescript-eslint'
+rules:
+  '@typescript-eslint/array-type': error
+  '@typescript-eslint/brace-style':
+    - error
+    - stroustrup
+    - allowSingleLine: true
+  '@typescript-eslint/explicit-function-return-type': off
+  '@typescript-eslint/func-call-spacing': error
+  '@typescript-eslint/indent':
+    - error
+    - 2
+  '@typescript-eslint/no-explicit-any': off
+  '@typescript-eslint/no-extra-parens': error
+  '@typescript-eslint/no-extra-semi': error
+  '@typescript-eslint/no-non-null-assertion': off
+  '@typescript-eslint/no-unnecessary-condition':
+    - error
+    - ignoreRhs: true
+  '@typescript-eslint/no-unnecessary-qualifier': error
+  '@typescript-eslint/no-unnecessary-type-arguments': error
+  '@typescript-eslint/no-use-before-define': off
+  '@typescript-eslint/prefer-nullish-coalescing': error
+  '@typescript-eslint/prefer-optional-chain': error
+  '@typescript-eslint/prefer-readonly': error
+  '@typescript-eslint/quotes':
+    - error
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: true
+  '@typescript-eslint/semi':
+    - error
+    - never
+  '@typescript-eslint/space-before-function-paren':
+    - error
+    - named: never
+  array-bracket-newline: error
+  array-bracket-spacing: error
+  arrow-body-style: error
+  arrow-parens:
+    - error
+    - as-needed
+  arrow-spacing: error
+  block-spacing: error
+  comma-dangle: error
+  comma-spacing: error
+  comma-style: error
+  computed-property-spacing:
+    - error
+    - never
+    - enforceForClassMembers: true
+  curly:
+    - error
+    - multi-or-nest
+    - consistent
+  dot-location:
+    - error
+    - property
+  dot-notation: error
+  eol-last: error
+  eqeqeq:
+    - error
+    - smart
+  function-call-argument-newline:
+    - error
+    - consistent
+  function-paren-newline: error
+  generator-star-spacing:
+    - error
+    - before: false
+      after: true
+      method:
+        after: false
+  jsx-quotes:
+    - error
+    - prefer-single
+  key-spacing: error
+  keyword-spacing: error
+  linebreak-style: error
+  lines-around-comment: error
+  lines-between-class-members:
+    - error
+    - always
+    - exceptAfterSingleLine: true
+  new-parens: error
+  no-control-regex: off
+  no-else-return:
+    - error
+    - allowElseIf: false
+  no-extra-bind: error
+  no-extra-label: error
+  no-extra-semi: off
+  no-lonely-if: error
+  no-multi-spaces:
+    - error
+    - ignoreEOLComments: true
+      exceptions:
+        BinaryExpression: true
+        CallExpression: true
+        ClassProperty: true
+        ImportDeclaration: true
+        TSEnumMember: true
+        VariableDeclarator: true
+  no-multiple-empty-lines:
+    - error
+    - max: 1
+      maxBOF: 0
+      maxEOF: 0
+  no-trailing-spaces: error
+  no-undef-init: error
+  no-unneeded-ternary: error
+  no-useless-computed-key: error
+  no-useless-rename: error
+  no-useless-return: error
+  no-var: error
+  no-whitespace-before-property: error
+  object-curly-newline: error
+  object-curly-spacing:
+    - error
+    - always
+  object-property-newline:
+    - error
+    - allowAllPropertiesOnSameLine: true
+  object-shorthand: error
+  operator-assignment: error
+  operator-linebreak:
+    - error
+    - after
+    - overrides:
+        '?': before
+        ':': before
+  padded-blocks:
+    - error
+    - never
+  prefer-arrow-callback: error
+  prefer-const: error
+  prefer-destructuring:
+    - error
+    - array: false
+  prefer-exponentiation-operator: error
+  prefer-numeric-literals: error
+  prefer-object-spread: error
+  prefer-template: error
+  quote-props:
+    - error
+    - consistent-as-needed
+  rest-spread-spacing: error
+  semi-spacing: error
+  semi-style: error
+  sort-imports:
+    - error
+    - ignoreDeclarationSort: true
+  space-before-blocks: error
+  space-in-parens: error
+  space-unary-ops: error
+  strict: error
+  switch-colon-spacing: error
+  template-curly-spacing: error
+  template-tag-spacing: error
+  unicode-bom: error
+  wrap-iife:
+    - error
+    - inside
+  yield-star-spacing: error
+  yoda:
+    - error
+    - never
+    - exceptRange: true
