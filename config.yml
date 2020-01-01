@@ -152,7 +152,7 @@ rules:
   prefer-const: error
   prefer-destructuring:
     - error
-    - array: false
+    - object: true
   prefer-exponentiation-operator: error
   prefer-numeric-literals: error
   prefer-object-spread: error
