@@ -90,7 +90,9 @@ rules:
   jsx-quotes:
     - error
     - prefer-single
-  key-spacing: error
+  key-spacing:
+    - error
+    - mode: minimum
   keyword-spacing: error
   linebreak-style: error
   lines-around-comment: error
