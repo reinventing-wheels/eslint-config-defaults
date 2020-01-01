@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-defaults",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "config.yml",
   "devDependencies": {
     "standard-version": "^7.0.1"
