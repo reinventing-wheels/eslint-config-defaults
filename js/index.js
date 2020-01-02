@@ -55,6 +55,7 @@ module.exports = {
       {
         ignoreEOLComments: true,
         exceptions: {
+          AssignmentExpression: true,
           BinaryExpression: true,
           CallExpression: true,
           ClassProperty: true,
