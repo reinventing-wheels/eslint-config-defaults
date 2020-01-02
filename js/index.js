@@ -69,7 +69,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
     'no-undef-init': 'error',
     'no-unneeded-ternary': 'error',
-    'no-unused-vars': ['warn', { varsIgnorePattern: '^_' }],
+    'no-unused-vars': ['warn', { args: 'all', varsIgnorePattern: '^_' }],
     'no-useless-computed-key': 'error',
     'no-useless-rename': 'error',
     'no-useless-return': 'error',
