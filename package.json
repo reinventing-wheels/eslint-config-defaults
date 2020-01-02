@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-defaults",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "js",
   "devDependencies": {
     "eslint": "^6.8.0",

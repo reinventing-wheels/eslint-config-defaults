@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.1.1...v0.1.2) (2020-01-02)
+
+
+### Features
+
+* modify `no-unused-vars` ([9947d0f](https://github.com/reinventing-wheels/eslint-config-defaults/commit/9947d0fb4f65543c1ac8dd0b3854c78c19501ed5))
+
+
+### Bug Fixes
+
+* ts config didn't include js rules ([8a5a498](https://github.com/reinventing-wheels/eslint-config-defaults/commit/8a5a498e4d97fd6b40f3d80eb17bba7d0426af9b))
+
 ### [0.1.1](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.1.0...v0.1.1) (2020-01-02)
 
 
