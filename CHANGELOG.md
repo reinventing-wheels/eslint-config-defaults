@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.1.0...v0.1.1) (2020-01-02)
+
+
+### Features
+
+* modify `no-extra-parens` ([f44e4e4](https://github.com/reinventing-wheels/eslint-config-defaults/commit/f44e4e41366b950e7bd62f5c983bb55c52007c91))
+* modify `no-multi-spaces` ([1a7d6ce](https://github.com/reinventing-wheels/eslint-config-defaults/commit/1a7d6cef1e67add033e17155cb7048d39a8e5fef))
+* modify `sort-imports` ([1d5ab19](https://github.com/reinventing-wheels/eslint-config-defaults/commit/1d5ab19f6ce5b74afa0def984d8fe68f35a0b620))
+
 ## [0.1.0](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.0.3...v0.1.0) (2020-01-02)
 
 
