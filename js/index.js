@@ -106,7 +106,10 @@ module.exports = {
     'semi-spacing': 'error',
     'semi-style': 'error',
     'semi': ['error', 'never'],
-    'sort-imports': ['error', { ignoreDeclarationSort: true }],
+    'sort-imports': [
+      'error',
+      { ignoreDeclarationSort: true, ignoreCase: true }
+    ],
     'space-before-blocks': 'error',
     'space-before-function-paren': ['error', { named: 'never' }],
     'space-in-parens': 'error',
