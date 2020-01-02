@@ -1,9 +1,12 @@
 PATH := node_modules/.bin:$(PATH)
 
+lint: node_modules
+	eslint js ts
+
+release: lint
+	standard-version -a
+
 node_modules: package.json
 	npm i && touch $@
 
-release: node_modules
-	standard-version -a
-
-.PHONY: release
+.PHONY: lint release
