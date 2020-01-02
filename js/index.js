@@ -47,7 +47,7 @@ module.exports = {
     'no-else-return': ['error', { allowElseIf: false }],
     'no-extra-bind': 'error',
     'no-extra-label': 'error',
-    'no-extra-parens': 'error',
+    'no-extra-parens': ['error', 'all', { nestedBinaryExpressions: false }],
     'no-extra-semi': 'error',
     'no-lonely-if': 'error',
     'no-multi-spaces': [
