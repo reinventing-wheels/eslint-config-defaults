@@ -16,5 +16,9 @@ module.exports = {
     project: './tsconfig.json'
   },
   plugins: ['@typescript-eslint'],
-  rules: require('./rules')
+  rules: {
+    ...js.rules,
+    ...require('./overrides'),
+    ...require('./rules')
+  }
 }

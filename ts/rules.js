@@ -2,7 +2,6 @@
 'use strict'
 
 module.exports = {
-  ...require('./overrides'),
   '@typescript-eslint/array-type': 'error',
   '@typescript-eslint/explicit-function-return-type': 'off',
   '@typescript-eslint/no-explicit-any': 'off',
