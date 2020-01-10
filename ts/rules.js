@@ -1,4 +1,4 @@
-/*eslint array-bracket-newline: ["error", "never"]*/
+/* eslint array-bracket-newline: ['error', 'never'] */
 'use strict'
 
 module.exports = {
