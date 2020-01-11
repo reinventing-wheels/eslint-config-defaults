@@ -28,7 +28,10 @@ module.exports = {
   'generator-star-spacing': ['error', {
     before: false,
     after: true,
-    method: { after: false }
+    method: {
+      before: true,
+      after: false
+    }
   }],
   'indent': ['error', 2],
   'jsx-quotes': ['error', 'prefer-single'],
