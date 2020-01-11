@@ -4,6 +4,14 @@
 module.exports = {
   '@typescript-eslint/array-type': 'error',
   '@typescript-eslint/explicit-function-return-type': 'off',
+  '@typescript-eslint/member-delimiter-style': ['error', {
+    multiline: {
+      delimiter: 'none'
+    },
+    singleline: {
+      delimiter: 'comma'
+    }
+  }],
   '@typescript-eslint/no-explicit-any': 'off',
   '@typescript-eslint/no-non-null-assertion': 'off',
   '@typescript-eslint/no-unnecessary-condition': ['error', {
