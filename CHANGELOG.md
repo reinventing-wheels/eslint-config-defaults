@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.1.3...v0.1.4) (2020-01-11)
+
+
+### Bug Fixes
+
+* fix `member-delimiter-style` ([b1564e7](https://github.com/reinventing-wheels/eslint-config-defaults/commit/b1564e749f3fc912ea7497f74877dc69f25ac2bc))
+
 ### [0.1.3](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.1.2...v0.1.3) (2020-01-11)
 
 
