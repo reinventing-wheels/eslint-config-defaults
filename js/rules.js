@@ -52,6 +52,7 @@ module.exports = {
   'no-extra-bind': 'error',
   'no-extra-label': 'error',
   'no-extra-parens': ['error', 'all', {
+    conditionalAssign: false,
     nestedBinaryExpressions: false
   }],
   'no-extra-semi': 'error',
