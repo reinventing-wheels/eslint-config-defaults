@@ -65,7 +65,11 @@ module.exports = {
       CallExpression: true,
       ClassProperty: true,
       ImportDeclaration: true,
+      ObjectPattern: true,
       TSEnumMember: true,
+      TSIntersectionType: true,
+      TSTypeAliasDeclaration: true,
+      TSUnionType: true,
       VariableDeclarator: true
     }
   }],
