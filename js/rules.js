@@ -64,6 +64,7 @@ module.exports = {
       BinaryExpression: true,
       CallExpression: true,
       ClassProperty: true,
+      LogicalExpression: true,
       TSEnumMember: true,
       TSIntersectionType: true,
       TSTypeAliasDeclaration: true,
