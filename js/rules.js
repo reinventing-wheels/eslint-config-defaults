@@ -69,6 +69,7 @@ module.exports = {
       TSIntersectionType: true,
       TSTypeAliasDeclaration: true,
       TSUnionType: true,
+      VariableDeclaration: true,
       VariableDeclarator: true
     }
   }],
