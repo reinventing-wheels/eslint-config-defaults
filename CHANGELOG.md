@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.1.9...v0.1.10) (2020-08-23)
+
+
+### Features
+
+* disable some new rules ([a16fe0b](https://github.com/reinventing-wheels/eslint-config-defaults/commit/a16fe0bf0673a7240be75a9992a7379c5b05151e))
+
 ### [0.1.9](https://github.com/reinventing-wheels/eslint-config-defaults/compare/v0.1.8...v0.1.9) (2020-03-26)
 
 
